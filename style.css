@@ -1,19 +1,24 @@
 * { 
     margin:0; 
     padding:0; 
-    box-sizing:border-box; 
+    box-sizing:border-box;
+    position: relative;
 }
 body {
     background: #a4deff;
     font-family: 'Ubuntu', 'Oxygen', sans-serif;
     color: #198fff;
 }
+header{
+    display: flex;
+    margin-top: 5vh;
+    align-items: center;
+}
 .HeaderText{
     font-family: 'Ubuntu', 'Oxygen', sans-serif;
     font-size: 20px;
     font-weight: bold;
-    padding: 16px 60px;
-    margin: 20px 0 0 120px;
+    margin: 0 0 0 12vw;
     position: inherit;
     color: #198fff;
 }
@@ -21,67 +26,67 @@ body {
     border: none;
     color: #a4deff;
     background-color: #198fff;
-    padding: 13px;
+    padding: 14px;
     text-align: center;
     font-family: 'Ubuntu', 'Oxygen', sans-serif;
     display: inline-block;
     font-size: 16px;
     font-weight: 800;
-    margin: -10px 180px 0 0;
+    margin: 0 12vw 0 0;
     cursor: pointer;
     position: absolute;
     right: 0;
     max-width: fit-content;
     max-height: fit-content;
-    border-radius: 50px;
+    border-radius: 7vw;
+    flex-direction: column-reverse;
 }
 .SwitchButton:hover {
     background-color: #0c7be2;
 }
 hr{
-    margin: 60px 140px 60px 140px;
+    margin: 15vh 10vw;
     border: 1px solid #19beff;
 }
 .TextOne {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 15vh;
     font-size: 50px;
 }
 .TextTwo {
     font-weight: lighter;
-    margin: 50px 0 0 180px;
+    margin: 5vh 0 0 12vw;
     font-size: 30px;
 }
 .TextThree {
     font-weight: bold;
-    margin: 20px 180px;
+    margin: 5vh 12vw;
     font-size: 50px;
 }
 .TextFour{
     font-weight: 500;
-    margin: 50px 180px 100px 180px;
+    margin: 10vh 12vw 18vh 12vw;
     font-size: 24px;
     text-align: justify;
 }
 .ProfilePhoto{
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 15vw;
+    max-width: 15vw;
     right: 0;
     position: absolute;
-    margin-top: -40px;
-    margin-right: 180px;
-    border-radius: 80px;
+    margin-right: 12vw;
+    border-radius: 12vh;
     border: #198fff;
     border-style: solid;
-    border-width: 6px;
+    border-width: 1vh;
 }
 .SectionHeader{
-    margin: 10px 10px 25px 180px;
+    margin: 2vh 0 5vh 14vw;
     font-weight: bolder;
     font-size: 30px;
 }
 .Biodata{
-    margin: 10px 10px 15px 180px;
+    margin: 1vh 0 2vh 14vw;
     font-size: 20px;
     font-weight: 500;
 }
@@ -95,12 +100,12 @@ hr{
     display: inline-block;
     font-size: 16px;
     font-weight: 800;
-    margin: 0 0 0 30px;
+    margin: 0 0 0 5vw;
     cursor: pointer;
     position: absolute;
     max-width: fit-content;
     max-height: fit-content;
-    border-radius: 20px;
+    border-radius: 3vh;
 }
 .Phone:hover{
     background-color: #0c7be2
@@ -111,78 +116,86 @@ a{
 .Gmail:hover{
     color: #0077e7;
 }
+.Education{
+    display: flex;
+    margin: 3vh 0 7vh 0;
+    align-items: center;
+}
 .ITSLogo{
-    margin-left: 180px;
-    max-width: 150px;
-    max-height: 150px;
-    border: 6px solid #198fff;
-    border-radius: 30px;
+    margin-left: 14vw;
+    max-width: 12vw;
+    max-height: 12vw;
+    border: 1vh solid #198fff;
+    border-radius: 6vh;
     background: #6db7fc;
 }
 .SmalaLogo{
-    margin: 90px 0 0 180px;
-    max-width: 150px;
-    max-height: 250px;
-    border: 6px solid #198fff;
-    border-radius: 30px;
+    margin: 0 0 0 14vw;
+    max-width: 12vw;
+    max-height: 18vw;
+    border: 1vh solid #198fff;
+    border-radius: 6vh;
     background: #6db7fc;
 }
 .College{
-    margin: -145px 0 0 350px;
+    margin: 0 0 0 1vw;
     font-size: 24px;
     font-weight: 700;
 }
 .HighSchool{
-    margin: -150px 0 0 350px;
+    margin: 0 0 0 1vw;
     font-size: 24px;
     font-weight: 700;
 }
 .Department{
-    margin: 0 0 0 350px;
+    margin: 0 0 0 1vw;
     font-weight: 500;
     font-size: 22px;
 }
 .Organization{
-    margin: 0 0 0 370px;
+    margin: 0 0 0 3vw;
     font-size: 20px;
     font-weight: 400;
 }
 .Contact{
-    margin: 100px 0 0 180px;
+    margin: 10vh 0 0 14vw;
     font-weight: bold;
     font-size: 32px;
 }
+#ContactList{
+    display: flex;
+    margin-top: 6vh;
+}
 .Instagram{
-    max-width: 75px;
-    max-height: 75px;
-    margin: 30px 0 0 180px;
-    border: 3px solid #198fff;
-    border-radius: 15px;
+    max-width: 12vh;
+    max-height: 12vh;
+    margin: 0 0 0 14vw;
+    border: 0.5vh solid #198fff;
+    border-radius: 3vh;
     background: #84c3ff;
 }
 .Instagram:hover{
     background: #56adff;
 }
 .Github{
-    max-width: 75px;
-    max-height: 75px;
-    display: block;
-    margin: -77px auto 0 auto;
-    border: 3px solid #198fff;
-    border-radius: 15px;
+    max-width: 12vh;
+    max-height: 12vh;
+    margin-left: 1vw;
+    border: 0.5vh solid #198fff;
+    border-radius: 3vh;
     background: #84c3ff;
 }
 .Github:hover{
     background: #56adff;
 }
 .Linkedin{
-    max-width: 75px;
-    max-height: 75px;
-    float: right;
-    margin: -75px 180px 0 270px;
-    border: 3px solid #198fff;
-    border-radius: 15px;
+    max-width: 12vh;
+    max-height: 12vh;
+    margin-left: 1vw;
+    border: 0.5vh solid #198fff;
+    border-radius: 3vh;
     background: #84c3ff;
+
 }
 .Linkedin:hover{
     background: #56adff;
@@ -190,14 +203,14 @@ a{
 .FooterText{
     text-align: center;
     font-size: 20px;
-    margin-top: 50px;
-    padding: 30px;
+    margin-top: 10vh;
+    padding: 10vh;
 }
 .DarkMode{
     background: #121212;
 }
 .DarkPhoto{
-    border: 6px solid rgb(212, 97, 216);
+    border: 1vh solid rgb(212, 97, 216);
 }
 .DarkText{
     color: rgb(212, 97, 216);
@@ -219,15 +232,15 @@ a{
     color: rgb(234, 115, 238);
 }
 .DarkITSLogo{
-    border: 6px solid rgb(146, 43, 150);
+    border: 1vh solid rgb(146, 43, 150);
     background: #464141;
 }
 .DarkSmalaLogo{
-    border: 6px solid rgb(146, 43, 150);
+    border: 1vh solid rgb(146, 43, 150);
     background: #4e4e4e;
 }
 .DarkLogo{
-    border: 3px solid rgb(146, 43, 150);
+    border: 0.5vh solid rgb(146, 43, 150);
     background: #4e4e4e;
 }
 .DarkLogo:hover{
