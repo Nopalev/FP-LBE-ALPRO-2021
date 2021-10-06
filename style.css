@@ -50,7 +50,7 @@ hr{
 }
 .TextOne {
     text-align: center;
-    margin-top: 15vh;
+    margin: 15vh 0 5vh 0;
     font-size: 50px;
 }
 .TextTwo {
@@ -65,7 +65,7 @@ hr{
 }
 .TextFour{
     font-weight: 500;
-    margin: 10vh 12vw 18vh 12vw;
+    margin: 7vh 12vw 18vh 12vw;
     font-size: 24px;
     text-align: justify;
 }
@@ -86,7 +86,7 @@ hr{
     font-size: 30px;
 }
 .Biodata{
-    margin: 1vh 0 2vh 14vw;
+    margin: 1vh 14vw 2vh 14vw;
     font-size: 20px;
     font-weight: 500;
 }
@@ -204,6 +204,50 @@ a{
     font-size: 20px;
     margin-top: 10vh;
     padding: 10vh;
+}
+@media only screen and (max-width: 768px) {
+    .TextOne{
+        font-size: 30px;
+    }
+    .TextThree{
+        font-size: 30px;
+    }
+    .ProfilePhoto{
+        max-height: 150px;
+        max-width: 150px;
+        position: absolute;
+        margin-left: 12vw;
+        border-radius: 60px;
+        border: #198fff;
+        border-style: solid;
+        border-width: 4.5px;
+    }
+    .Phone{
+        display: flex;
+        margin: 2vh 0 0 0;
+        position: relative;
+    }
+    .ITSLogo{
+        margin: 0 0 1vh 14vw;
+    }
+    .SmalaLogo{
+        margin: 3vh 0 1vh 14vw;
+    }
+    .Education{
+        display: inline;
+    }
+    .College{
+        margin: 1vh 2vh 0 14vw;
+    }
+    .HighSchool{
+        margin: 1vh 2vh 0 14vw;
+    }
+    .Department{
+        margin: 0 2vh 0 14vw;
+    }
+    .Organization{
+        margin: 0 2vh 0 14vw;
+    }
 }
 .DarkMode{
     background: #121212;
