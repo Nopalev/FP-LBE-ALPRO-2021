@@ -70,15 +70,15 @@ hr{
     text-align: justify;
 }
 .ProfilePhoto{
-    max-height: 15vw;
-    max-width: 15vw;
+    max-height: 200px;
+    max-width: 200px;
     right: 0;
     position: absolute;
     margin-right: 12vw;
-    border-radius: 12vh;
+    border-radius: 80px;
     border: #198fff;
     border-style: solid;
-    border-width: 1vh;
+    border-width: 6px;
 }
 .SectionHeader{
     margin: 2vh 0 5vh 14vw;
@@ -123,32 +123,32 @@ a{
 }
 .ITSLogo{
     margin-left: 14vw;
-    max-width: 12vw;
-    max-height: 12vw;
-    border: 1vh solid #198fff;
-    border-radius: 6vh;
+    max-width: 150px;
+    max-height: 150px;
+    border: 6px solid #198fff;
+    border-radius: 30px;
     background: #6db7fc;
 }
 .SmalaLogo{
     margin: 0 0 0 14vw;
-    max-width: 12vw;
-    max-height: 18vw;
-    border: 1vh solid #198fff;
-    border-radius: 6vh;
+    max-width: 150px;
+    max-height: 250px;
+    border: 6px solid #198fff;
+    border-radius: 30px;
     background: #6db7fc;
 }
 .College{
-    margin: 0 0 0 1vw;
+    margin: 0 0 0 2vw;
     font-size: 24px;
     font-weight: 700;
 }
 .HighSchool{
-    margin: 0 0 0 1vw;
+    margin: 0 0 0 2vw;
     font-size: 24px;
     font-weight: 700;
 }
 .Department{
-    margin: 0 0 0 1vw;
+    margin: 0 0 0 2vw;
     font-weight: 500;
     font-size: 22px;
 }
@@ -167,35 +167,34 @@ a{
     margin-top: 6vh;
 }
 .Instagram{
-    max-width: 12vh;
-    max-height: 12vh;
+    max-width: 75px;
+    max-height: 75px;
+    border: 3px solid #198fff;
+    border-radius: 15px;
     margin: 0 0 0 14vw;
-    border: 0.5vh solid #198fff;
-    border-radius: 3vh;
     background: #84c3ff;
 }
 .Instagram:hover{
     background: #56adff;
 }
 .Github{
-    max-width: 12vh;
-    max-height: 12vh;
+    max-width: 75px;
+    max-height: 75px;
     margin-left: 1vw;
-    border: 0.5vh solid #198fff;
-    border-radius: 3vh;
+    border: 3px solid #198fff;
+    border-radius: 15px;
     background: #84c3ff;
 }
 .Github:hover{
     background: #56adff;
 }
 .Linkedin{
-    max-width: 12vh;
-    max-height: 12vh;
+    max-width: 75px;
+    max-height: 75px;
+    border: 3px solid #198fff;
+    border-radius: 15px;
     margin-left: 1vw;
-    border: 0.5vh solid #198fff;
-    border-radius: 3vh;
     background: #84c3ff;
-
 }
 .Linkedin:hover{
     background: #56adff;
@@ -210,7 +209,7 @@ a{
     background: #121212;
 }
 .DarkPhoto{
-    border: 1vh solid rgb(212, 97, 216);
+    border: 6px solid rgb(212, 97, 216);
 }
 .DarkText{
     color: rgb(212, 97, 216);
@@ -232,15 +231,15 @@ a{
     color: rgb(234, 115, 238);
 }
 .DarkITSLogo{
-    border: 1vh solid rgb(146, 43, 150);
+    border: 6px solid rgb(146, 43, 150);
     background: #464141;
 }
 .DarkSmalaLogo{
-    border: 1vh solid rgb(146, 43, 150);
+    border: 6px solid rgb(146, 43, 150);
     background: #4e4e4e;
 }
 .DarkLogo{
-    border: 0.5vh solid rgb(146, 43, 150);
+    border: 6px solid rgb(146, 43, 150);
     background: #4e4e4e;
 }
 .DarkLogo:hover{
