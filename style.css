@@ -65,7 +65,7 @@ hr{
 }
 .TextFour{
     font-weight: 500;
-    margin: 7vh 12vw 18vh 12vw;
+    margin: 10vh 12vw 18vh 12vw;
     font-size: 24px;
     text-align: justify;
 }
@@ -208,19 +208,29 @@ a{
 @media only screen and (max-width: 768px) {
     .TextOne{
         font-size: 30px;
+        margin: 15vh 0 3vh 0;;
+    }
+    .TextTwo{
+        margin: 1vh 0 0 12vw;
     }
     .TextThree{
         font-size: 30px;
+        margin: 1vh 0 0 12vw;
+    }
+    .TextFour{
+        text-align: unset;
+        margin: 6vh 12vw 18vh 12vw;
     }
     .ProfilePhoto{
         max-height: 150px;
         max-width: 150px;
-        position: absolute;
+        position: relative;
         margin-left: 12vw;
         border-radius: 60px;
         border: #198fff;
         border-style: solid;
         border-width: 4.5px;
+        align-content: flex-start;
     }
     .Phone{
         display: flex;
