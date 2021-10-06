@@ -246,16 +246,16 @@ a{
         display: inline;
     }
     .College{
-        margin: 1vh 2vh 0 14vw;
+        margin: 1vh 14vw 0 14vw;
     }
     .HighSchool{
-        margin: 1vh 2vh 0 14vw;
+        margin: 1vh 14vw 0 14vw;
     }
     .Department{
-        margin: 0 2vh 0 14vw;
+        margin: 0 14vw 0 14vw;
     }
     .Organization{
-        margin: 0 2vh 0 14vw;
+        margin: 0 14vw 0 14vw;
     }
 }
 .DarkMode{
