@@ -236,11 +236,14 @@ a{
         margin: 2vh 0 0 0;
         position: relative;
     }
+    .SectionHeader{
+        margin: 15vh 0 10vh 14vw;
+    }
     .ITSLogo{
-        margin: 0 0 1vh 14vw;
+        margin: 5vh 0 0 14vw;
     }
     .SmalaLogo{
-        margin: 6vh 0 1vh 14vw;
+        margin: 10vh 0 0 14vw;
     }
     .Education{
         display: inline;
